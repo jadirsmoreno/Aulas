@@ -22,3 +22,4 @@ while chute != numero_secreto:
             print("O seu chute foi menor do que o número secreto!")
 
 print("Fim do jogo")
+print('aaaaaaaaaaaaaa')
