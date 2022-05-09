@@ -4,11 +4,20 @@ print("*********************************")
 print("Bem vindo ao jogo de Adivinhação!")
 print("*********************************")
 
-numero_secreto = randrange(1, 100)
-total_de_tentativas = 3
+numero_secreto = randrange(1, 101) # importa um número aleatório entre 1 e 100
+total_de_tentativas = 0
 
 print(numero_secreto)
 
+print("Qual nível de dificuldade?\n(1) Fácil\n(2) Médio\n(3) Difícil")
+nivel = int(input("Escolha seu nível: "))
+
+if(nivel == 1):
+    total_de_tentativas == 20
+elif(nivel == 2):
+    total_de_tentativas == 10
+else:
+    total_de_tentativas == 5
 for rodada in range(1, total_de_tentativas + 1):
     print('####Tentativa {} de {}####'.format(rodada, total_de_tentativas))
     chute = int(input('Digite o seu número, entre 1 e 100: '))
