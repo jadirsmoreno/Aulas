@@ -1,7 +1,7 @@
 from random import randrange
+def jogar_forca():
+    print("*********************************")
+    print("Bem vindo ao jogo de Forca!")
+    print("*********************************")
 
-print("*********************************")
-print("Bem vindo ao jogo de Forca!")
-print("*********************************")
-
-print("Fim do jogo")
+    print("Fim do jogo")
