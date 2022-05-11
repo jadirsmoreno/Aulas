@@ -48,3 +48,5 @@ def jogar_numero_aleatorio():
 
     print("o número secreto era: {}".format(numero_secreto))
     print("Fim do jogo")
+if(__name__ == "__main__"):
+    jogar_numero_aleatorio()
