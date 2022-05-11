@@ -5,13 +5,13 @@ print("*********************************")
 print("****** Escolha o seu jogo! ******")
 print("*********************************")
 
-print('(1) Forca\n(2) Advinhação')
+print('(1) Forca\n(2) Adivinhação')
 
 jogo = int(input('Qual o jogo?'))
 
 if jogo == 1:
     print('Jogando Forca!')
-    jogar_forca()
+    forca.jogar_forca()
 elif jogo == 2:
-    print('Jogando Advinhação!')
-    jogar_advinhacao()
+    print('Jogando Adivinhação!')
+    numeroAleatorio.jogar_numero_aleatorio()

@@ -1,6 +1,7 @@
 from random import randrange
 
-def numero_aleatorio():
+
+def jogar_numero_aleatorio():
     print("*********************************")
     print("Bem vindo ao jogo de Adivinhação!")
     print("*********************************")
