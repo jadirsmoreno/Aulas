@@ -1,6 +1,7 @@
 import forca
 import numeroAleatorio
 
+
 def escolha_jogos():
     print("*********************************")
     print("****** Escolha o seu jogo! ******")
@@ -16,5 +17,7 @@ def escolha_jogos():
     elif jogo == 2:
         print('Jogando Adivinhação!')
         numeroAleatorio.jogar_numero_aleatorio()
-if(__name__ == "__main__"):
+
+
+if (__name__ == "__main__"):
     escolha_jogos()
